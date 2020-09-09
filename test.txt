@@ -1,0 +1,5 @@
+algolia_admin_key
+algolia_admin_key_mcm
+algolia.admin.key
+algolia_admin.key
+algolia.admin_key
