@@ -102,10 +102,11 @@ if [[ ! -e /etc/openvpn/server/server.conf ]]; then
 	clear
 	echo 'Welcome to this OpenVPN road warrior installer!'
 	
-  ip="$1"
+  	ip="$1"
+	public_ip="$2"
 	protocol="udp"
-  port="1194"
-  dns="1.1.1.1"
+  	port="1194"
+ 	 dns="1.1.1.1"
 	client="client"
   
 	echo "OpenVPN installation is ready to begin."
