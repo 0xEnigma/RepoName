@@ -106,7 +106,7 @@ if [[ ! -e /etc/openvpn/server/server.conf ]]; then
 	public_ip="$2"
 	protocol="udp"
   	port="1194"
- 	 dns="1.1.1.1"
+ 	dns=2
 	client="client"
   
 	echo "OpenVPN installation is ready to begin."
