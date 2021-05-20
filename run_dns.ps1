@@ -8,4 +8,4 @@ $file = "$env:temp\ConfigureRemotingForAnsible.ps1"
 (New-Object -TypeName System.Net.WebClient).DownloadFile($url, $file)
 powershell.exe -ExecutionPolicy ByPass -File $file
 winrm enumerate winrm/config/Listener
-echo "10.0.2.5 corp.local" >> C:\Windows\System32\drivers\etc\hosts
+echo "10.1.1.5 corp.local" >> C:\Windows\System32\drivers\etc\hosts
