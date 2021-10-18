@@ -6,7 +6,6 @@ new_client () {
 	cat /etc/openvpn/server/client-common.txt
 	echo "dhcp-option DNS 10.1.1.5"
 	echo "dhcp-option DNS 8.8.8.8"
-	echo "register-dns"
 	echo "<ca>"
 	cat /etc/openvpn/server/easy-rsa/pki/ca.crt
 	echo "</ca>"
